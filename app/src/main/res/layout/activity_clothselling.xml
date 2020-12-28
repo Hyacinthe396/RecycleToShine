@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Clothselling"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imgoldclothes"
+        android:layout_width="386dp"
+        android:layout_height="177dp"
+        android:clickable="true"
+        android:contentDescription="Click here if you want to sell an old clothes."
+        app:srcCompat="@drawable/pic2" />
+
+    <TextView
+        android:id="@+id/txtoldclothes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:onClick="buyold"
+        android:text="Click here if you want to sell an old clothes."
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgrecycleclothes"
+        android:layout_width="382dp"
+        android:layout_height="178dp"
+        android:clickable="true"
+        android:contentDescription="Click here to buy renewed clothes."
+        app:srcCompat="@drawable/pic5" />
+
+    <TextView
+        android:id="@+id/txtbuyrenewedclothes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:onClick="buyrenewed"
+        android:text="Click here if you want to sell an old clothes."
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+</LinearLayout>
